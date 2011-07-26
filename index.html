@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>GeeksOnBeer - 2° edição - 11 de agosto</title>
+        <title>Geeks On Beer - 2° edição - 11 de agosto</title>
 
 		<meta name="description" content="#FIXME" />
 		<meta name="keywords" content="#FIXME" />
@@ -40,7 +40,6 @@
 			height: 100%;
 			padding: 0;
 			margin: 0;
-			overflow: auto;
 		    color: #000000;
 		    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 		    font-size: 15px;
@@ -53,8 +52,14 @@
 			color: #262262;
 		}
 		h3 {
+			font-family: 'Paytone One', sans-serif;
 			margin: 8px 0;
 			font-size: 18px;
+			color: #262262;
+		}
+		h3 a {
+			text-decoration: none;
+			color: #262262;
 		}
 		p {
 			margin: 8px 0 8px 5px;
@@ -91,15 +96,38 @@
 			margin: 0 auto;
 			padding: 40px 0;
 			border-bottom: 1px solid #262262;
+			clear: both;
 		}
 		.first {
 			padding: 10px 0 40px;
 		}
 		.support-block {
-			height: 170px;
+		    height: 210px;
 		}
 		.last {
 			border: 0;
+		}
+		.talk {
+			-moz-border-radius: 20px;
+			border-radius: 20px;
+			border: 1px solid #262262;
+		    display: inline-block;
+		    float: left;
+		    padding: 10px 20px;
+		    width: 380px;
+			color: #262262;
+			background: #fff;
+			margin: 10px 0 0;
+		}
+		#left-talk {
+			width: 440px;
+			display: inline-block;
+			float: left;
+		}
+		#right-talk {
+			width: 440px;
+			display: inline-block;
+			float: right;
 		}
 		ul {
 			list-style: none;
@@ -188,8 +216,24 @@
 					<p>Será cobrada consumação mínima de R$ 30,00 por pessoa.</p>
 				</div>
 				<div class="block">
-					<h2>programaçao</h2>
-					<p>Em breve</p>
+					<h2>programação</h2>
+					<div id="left-talk">
+						<h3>Palestra: quebrei!</h3>
+						<p>Palestra de 30 minutos de duração onde o empreendedor vai contar como seus tropeços foram importantes para o sucesso da sua startup.</p>
+						<div class="talk">
+							<img src="http://a2.sphotos.ak.fbcdn.net/hphotos-ak-snc3/31969_392589002482_691777482_4560842_1438747_n.jpg" style="width: 100px; float: left; margin: 0 15px 0 0" />	
+							<h3>Fabio Seixas</h3>
+							<p>Empresário de Internet e analista de sistemas. Possui 16 anos de experiência em projetos e empresas de tecnologia e Internet. Fundou sua primeira empresa de comércio eletrônico em 1997. Atualmente é sócio-fundador do <a href="http://camiseteria.com">Camiseteria.com</a> e sócio-advisor do <a href="http://organizze.com.br">Organizze.com.br</a></p>
+						</div>
+					</div>
+					<div id="right-talk">
+						<h3>Palestra: mandei bem!</h3>
+						<p>Palestra de 30 minutos de duração onde o empreendedor vai dar algumas dicas que foram importantes para o sucesso de sua startup.</p>
+						<div class="talk">
+							<h3>Em breve!</h3>
+						</div>
+					</div>
+					<br clear="all" />
 				</div>
 				<div class="block">
 					<h2>na mídia</h2>
@@ -213,7 +257,12 @@
 				</div>
 				<div class="block">
 					<h2>depoimentos</h2>
-					<p>Em breve</p>
+					<h3><a href="http://twitter.com/gugaalves">@gugaalves</a></h3>
+					<p>Mais motivado ainda para abrir meu próprio empreendimento depois do Geeks On Beer de ontem! \o/</p>
+					<h3><a href="http://twitter.com/felipematos">@felipematos</a></h3>
+					<p>Empolgado com o sucesso do Geeks On Beer no Rio organizado em menos de 24h pela comunidade de geeks e developers locais.</p>
+					<h3><a href="http://twitter.com/bigdigo">@bigdigo</a></h3>
+					<p>Geeks On Beer foi top! Muita gente boa, muitos programadores, startups, ideias, tudo 100% Carioca!</p>
 				</div>
 				<div class="block">
 					<h2>onde será?</h2>
