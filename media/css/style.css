@@ -12,7 +12,7 @@ html, body {
     color: #000000;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 15px;
-	background: #f7f5dd;
+	background: url("../images/background-gob.jpg");
 }
 h2 {
 	margin: 0 0 15px;
@@ -107,9 +107,6 @@ p {
 	border: 0;
 }
 .talk {
-	-moz-border-radius: 20px;
-	border-radius: 20px;
-	border: 1px solid #262262;
     display: inline-block;
     float: left;
     padding: 10px 15px;
@@ -142,9 +139,6 @@ p {
     margin: 15px 14px 0;
 }
 .speed-logo {
-	-moz-border-radius: 20px;
-	border-radius: 20px;
-	border: 1px solid #262262;
     display: inline-block;
     float: left;
     width: 150px;
@@ -185,20 +179,14 @@ li {
 	display: inline;
 	margin: 0 15px;
 }
-li a img {
-	-moz-border-radius: 20px;
-	border-radius: 20px;
-	border: 1px solid #262262;
-}
+
 li a img:hover {
 	-moz-box-shadow: 0 0 4px 1px #262262;
 	-webkit-box-shadow: 0 0 4px 1px #262262;
 	box-shadow: 0 0 4px 1px #262262;
 }
+
 .people {
-	-moz-border-radius: 20px;
-	border-radius: 20px;
-	border: 1px solid #262262;
     display: inline-block;
     float: left;
     margin: 0 15px 40px;
@@ -215,9 +203,6 @@ li a img:hover {
 	text-decoration: none;
 }
 .support {
-	-moz-border-radius: 20px;
-	border-radius: 20px;
-	border: 1px solid #262262;
     display: inline-block;
     float: left;
     margin: 0 15px;
