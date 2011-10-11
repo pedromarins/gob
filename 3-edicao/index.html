@@ -14,15 +14,20 @@
 
 
 		<!-- js -->
+		<script src="./media/js/jquery-1.4.js" type="text/javascript"></script>
+		<script src="./media/js/jquery.animate.js" type="text/javascript"></script>
+		<script src="./media/js/jquery.anchorScroll.js" type="text/javascript"></script>
 		
 		<!-- css -->
     	<link rel="stylesheet" href="./media/css/style.css" type="text/css" media="screen" />
 
 		<script type="text/javascript">
 
-		  $(document).ready(function() {
-			$(".link-ancora").anchorScroll();
-		  });
+		$(document).ready(function() {
+			$(".link-ancora").anchorScroll({
+				before: 350
+			});
+		});
 		 </script>
 		
 	</head>
@@ -32,7 +37,7 @@
 			<h1>logo</h1>
 			<h2>20 de outubro de 2011 às 19h</h2>
 			<h3>Lapa - Rio de Janeiro</h3>
-			<a href="./inscricao.html">Inscreva-se agora</a>
+			<a id="inscricao" href="./inscricao.html">Inscreva-se agora</a>
 			<nav>
 				<ul>
 					<li><a class="link-ancora" href="#sobre">sobre</a></li>
@@ -51,18 +56,18 @@
 				<div class="content content-about">
 					<h3 id="sobre">sobre o evento</h3>
 					<h4>O que é?</h4>
-					<p>O Geeks On Beer é um encontro em forma de happy hour onde os geeks cariocas se encontram para conversar sobre negócios, tecnologia e tomar uma cerveja. O encontro está chegando em sua terceira edição, e você pode ver mais sobre as <a href="./2-edicao.html">edições anteriores</a>.</p>
+					<p>O Geeks On Beer é um encontro em forma de happy hour onde os geeks cariocas se encontram para conversar sobre negócios, tecnologia e tomar uma cerveja. O encontro está chegando em sua terceira edição, e se você já foi à alguma sabe que não poder perder essa. Se ainda não foi, está esperando o que?</p>
 					<h4>Quando?</h4>
 					<p>O encontro será realizado na quinta-feira, 20 de outubro de 2011, à partir das 19h, no <a href="http://www.espacolapacafe.com.br" target="_blank" title="Espaço Lapa Café">Espaço Lapa Café</a>, localizado na Avenida Gomes Freire, n° 457, na Lapa.</p>
 					<h4>Quanto?</h4>
-					<p>Temos somente <strong>150</strong> vagas para o evento, e elas estão divididas em lotes. As <strong>50</strong> primeiras são <strong>R$10</strong>, da <strong>51</strong> à <strong>100</strong> são <strong>R$15</strong> e da <strong>101</strong> à <strong>150</strong> são <strong>R$20</strong>. A consumação no local é livre.</p>
+					<p>Temos somente <strong>150</strong> vagas para o evento, e elas estão divididas em dois lotes. As <strong>75</strong> primeiras inscrições são <strong>R$20</strong>, da <strong>76</strong> à <strong>150</strong> são <strong>R$25</strong>. A consumação no local é livre.</p>
 					<h4>Inscreva-se!</h4>
-					<p><strong>O evento tem um número limitado de vagas!</strong>Não perca tempo e <a href="#fixme" target="_blank" title="Formulário de inscrição da terceira edição do Geeks On Beer">se inscreva logo</a>!</p>
-					<a href="#fixme" id="link-twitter">
-						<img src="#fixme" />twitter
+					<p><strong>O evento tem um número limitado de vagas!</strong> Não perca tempo e <a href="./inscricao.html" target="_blank" title="Formulário de inscrição da terceira edição do Geeks On Beer">se inscreva logo</a>!</p>
+					<a href="http://twitter.com/geeksonbeer" id="link-twitter">
+						twitter
 					</a>
-					<a href="#fixme" id="link-facebook">
-						<img src="#fixme" />facebook
+					<a href="http://facebook.com/geeksonbeer" id="link-facebook">
+						facebook
 					</a>
 				</div>
 			</article>
@@ -97,12 +102,12 @@
 						</div>
 						<div class="speed" style="margin: 0 4px 0 0;" >
 							<a class="speed-image" href="http://www.ventureone.com.br/" target="_blank" title="Venture One Startups">
-								<img src="./media/images/speed/venture-one.png" style="width: 200px; height: 40px"/>
+								<img src="./media/images/speed/venture-one.png" style="width: 200px; height: 42px"/>
 							</a>
 						</div>
 						<div class="speed" >
 							<a class="speed-image" href="http://www.gaveaangels.org.br/" target="_blank" title="Gávea Angels - Dando Asas a Novas Idéias">
-								<img src="./media/images/speed/gavea-angels.gif" style="width: 222px; height: 40px"/>
+								<img src="./media/images/speed/gavea-angels.gif" style="width: 222px; height: 42px"/>
 							</a>
 						</div>
 					</div>

@@ -2,7 +2,8 @@
 	$.fn.anchorScroll = function(options) {
 		var defaults = {
 			speed: 1100,
-			fx: "jswing"
+			fx: "jswing",
+			before: 0
 		};	
 		//var version =  "1.0";
 		var options = $.extend(defaults, options);
@@ -15,7 +16,7 @@
 				var locationHref = window.location.href;
 				var elementClick = $(element).attr("href");
 				
-				var destination = $(elementClick).offset().left;
+				var destination = $(elementClick).offset().left - options.before;
 				
 				$("html,body").animate({ scrollLeft: destination}, options.speed,  options.fx);
 				

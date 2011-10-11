@@ -44,7 +44,7 @@ aside h2 {
     font-size: 14.5px;
     margin: 25px auto 0;
     text-align: center;
-    width: 230px;
+    width: 240px;
 	font-family: "Paytone One", sans-serif;
 }
 
@@ -115,7 +115,7 @@ aside li a:hover {
 }
 
 section {
-	background: url("../images/util/background-gob.jpg");
+	background: #f7f5dd;
 	display: inline-block;
 	float: left;
 	height: 100%;
