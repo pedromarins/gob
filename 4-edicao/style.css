@@ -9,7 +9,7 @@ html, body {
 	background: #262262;
 	width:100%;
 	height: 100%;
-	padding: 0;
+	padding: 0 0 40px;
 	margin: 0;
     color: #F7F5DD;
     font-family: Helvetica,Arial,sans-serif;
@@ -17,7 +17,7 @@ html, body {
 }
 
 h1 {
-	background: url("./geeksonbeer-logo.png") no-repeat scroll 0 0 transparent;
+	background: url("./geeksonbeer-logo-natal.png") no-repeat scroll 0 0 transparent;
     border: 0 none;
     display: block;
 	height: 220px;
@@ -48,7 +48,36 @@ h3 {
 #video {
     box-shadow: 0 0 10px 1px #F7F5DD;
     display: block;
-    margin: 50px auto 50px;
+    margin: 40px auto 40px;
+}
+
+#eventop {
+    color: #262262;
+	display: block;
+	padding: 25px;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "Paytone One", sans-serif;
+	margin: 40px auto 0;
+	text-align: center;
+	text-decoration: none;
+	width: 240px;
+	
+	text-shadow: 0 1px 1px #FFFFFF;
+	
+    -webkit-border-radius: 10px 10px 10px 10px; /* Chrome,Safari4+ */
+    -o-border-radius: 10px 10px 10px 10px; /* Opera11.10+ */
+    -moz-border-radius: 10px 10px 10px 10px; /* FF3.6+ */
+    border-radius: 10px 10px 10px 10px;
+
+	background: #ff9c00; /* Old browsers */
+	background: -moz-linear-gradient(top, #ff9c00 0%, #f6cb01 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff9c00), color-stop(100%,#f6cb01)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ff9c00 0%,#f6cb01 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ff9c00 0%,#f6cb01 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #ff9c00 0%,#f6cb01 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9c00', endColorstr='#f6cb01',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #ff9c00 0%,#f6cb01 100%); /* W3C */
 }
 
 a {
