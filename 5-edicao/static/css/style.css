@@ -50,23 +50,23 @@ header {
 }
 
 .city #rj-top {
-	background: url("../images/cities/box-rj-off.jpg");
+	background: url("../images/cities/box-rj.jpg") 0 0 no-repeat;
 	height: 86px;
 	padding: 0;
 }
 
 .city #rj-top:hover {
-	background: url("../images/cities/box-rj-on.jpg");
+	background-position: 0 -86px;
 }
 
 .city #sp-top {
-	background: url("../images/cities/box-sp-off.jpg");
+	background: url("../images/cities/box-sp.jpg") 0 0 no-repeat;
 	height: 86px;
 	padding: 0;
 }
 
 .city #sp-top:hover {
-	background: url("../images/cities/box-sp-on.jpg");
+	background-position: 0 -86px;
 }
 
 .city .bottom {
