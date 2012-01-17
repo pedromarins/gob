@@ -44,6 +44,14 @@ h3 {
     width: auto;
 }
 
+h4 {
+	font-family: "Paytone One", sans-serif;
+	font-size: 30px;
+    margin: 10px auto 0;
+    text-align: center;
+    width: auto;
+}
+
 a {
     color: #F7F5DD;
 	position: absolute;

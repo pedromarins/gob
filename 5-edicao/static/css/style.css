@@ -1,0 +1,409 @@
+/* CSS Resets */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,q,small,strong,sub,sup,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;margin:0;padding:0}article,aside,figure,figure img,figcaption,hgroup,footer,header,nav,section,video,object{display:block}a img{border:0}figure{position:relative}figure img{width:100%}
+
+
+/******************** basic ********************/
+html {
+	background: #371b15;
+	color: #FFFFFF;
+}
+
+body {
+	margin: 0 auto;
+	width: 980px;
+}
+
+
+/******************** header ********************/
+header {
+	background: url("../images/util/header.jpg");
+	height: 270px;
+}
+
+#share {
+	display: none;
+	float: right;
+	margin: 15px 0 0 0;
+}
+
+#share li {
+	display: inline;
+	margin: 0 15px 0 0;
+}
+
+/******************** cities ********************/
+#cities {
+	display: inline-block;
+	width: 980px;
+	margin: 20px 0 0;
+}
+
+.city {
+	float: left;
+	margin: 0 40px 0 0;
+	width: 470px;
+}
+
+.last {
+	margin: 0;
+}
+
+.city #rj-top {
+	background: url("../images/cities/box-rj-off.jpg");
+	height: 86px;
+	padding: 0;
+}
+
+.city #rj-top:hover {
+	background: url("../images/cities/box-rj-on.jpg");
+}
+
+.city #sp-top {
+	background: url("../images/cities/box-sp-off.jpg");
+	height: 86px;
+	padding: 0;
+}
+
+.city #sp-top:hover {
+	background: url("../images/cities/box-sp-on.jpg");
+}
+
+.city .bottom {
+	background: url("../images/cities/box-down.jpg");
+	height: 20px;
+	margin: 0 0 50px;
+}
+
+.city div {
+	background: url("../images/cities/box-center.jpg");
+	padding: 0 40px 20px;
+}
+
+.city div h2 {
+	color: #fcd902;
+	padding: 20px 0 0;
+	text-align: center;
+	font-family: 'DIN1451StdEngschrift';
+	font-size: 43px;
+	text-shadow: 2px 3px 0px #000000;
+}
+
+.city div h1 {
+	padding: 5px 0;
+	text-align: center;
+	font-family: 'DIN1451StdEngschrift';
+	font-size: 55px;
+	text-shadow: 2px 3px 0px #000000;
+}
+
+.mapa {
+	color: #F58020;
+	display: block;
+	font-family: 'DIN1451StdEngschrift';
+	font-size: 18px;
+	margin: 0 0 15px 0;
+	text-align: right;
+	text-decoration: none;
+	text-shadow: 2px 3px 0px #000000;
+	width: 400px;
+}
+
+.city div a img {
+	margin: 0 5px -5px 0;
+}
+
+.programacao {
+	margin: 10px 22px 0;
+}
+
+.city div p {
+	padding: 5px 0 15px;
+	text-align: center;
+	font-family: 'DIN1451StdEngschrift';
+	font-size: 55px;
+	text-shadow: 2px 3px 0px #000000;
+}
+
+.inscricao {
+	background: #bd8a7b; /* Old browsers */
+	background: -moz-linear-gradient(top, #bd8a7b 0%, #6c3833 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bd8a7b), color-stop(100%,#6c3833)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #bd8a7b 0%,#6c3833 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #bd8a7b 0%,#6c3833 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #bd8a7b 0%,#6c3833 100%); /* IE10+ */
+	background: linear-gradient(top, #bd8a7b 0%,#6c3833 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bd8a7b', endColorstr='#6c3833',GradientType=0 ); /* IE6-9 */
+	border: 1px solid #bd8a7b;
+	border-radius: 10px;
+	box-shadow: 2px 2px 0px #000000;
+	color: #FFFFFF;
+	display: none;
+	font-family: 'DIN1451StdEngschrift';
+	font-size: 35px;
+	height: 70px;
+	line-height: 70px;
+	margin: 20px auto 30px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 2px 2px 0px #000000;
+	width: 300px;
+}
+
+
+
+/******************** about-midia ********************/
+#about-midia {
+	display: inline-block;
+	width: 980px;
+	margin: 40px 0;
+}
+
+#about-midia article {
+	float: left;
+	margin: 0 40px 0 0;
+	width: 636px;	
+}
+
+#about-midia article img {
+	float: left;
+}
+
+#about-midia article p {
+	float: left;
+	font-size: 20px;
+	margin: 10px 40px 30px;
+	text-shadow: 3px 3px 3px #000000;
+	width: 372px;
+	font-family: 'DINProRegular';
+}
+
+#about {
+	background: url("../images/title/titulo-oquee.png") no-repeat;
+	height: 90px;
+}
+
+#about-line {
+	background: url("../images/util/asterisco.png");
+	height: 15px;
+	margin: 20px 0 30px;
+    width: 99%;
+}
+
+#about-midia ul {
+	float: left;
+	width: 300px;
+}
+
+#midia {
+	background: url("../images/title/titulo-midia.png") no-repeat;
+	height: 90px;
+}
+
+#midia-line {
+	background: url("../images/util/asterisco.png");
+	height: 15px;
+	margin: 20px 0 30px;
+}
+
+#about-midia li {
+	list-style: none;
+}
+
+#about-midia li img {
+	margin: 0 30px 15px;
+}
+
+/******************** sponsors ********************/
+#sponsors {
+	display: none;
+	width: 980px;
+}
+
+/******************** media ********************/
+#media {
+	display: inline-block;
+	width: 980px;
+	margin: 40px 0 0;
+}
+
+#media div {
+	float: left;
+	margin: 0 40px 0 0;
+	width: 298px;
+	text-align: center;
+}
+
+#media div#last {
+	margin: 0;
+}
+
+#media div h3 {
+	height: 85px;
+}
+
+#media-line {
+	background: url("../images/util/asterisco.png");
+	height: 15px;
+	margin: 20px 0 30px !important;
+	width: 289px !important;
+}
+
+#contato {
+	font-family: 'DINProRegular';
+	font-size: 18px;
+	text-shadow: 3px 3px 0px #000000;
+	padding: 20px 0 0;
+}
+
+#contato h4 {
+	color: #f58020;
+	font-size: 25px;
+	margin: 90px 0 20px;
+}
+
+#contato p {
+	margin: 0 0 10px;
+}
+
+
+/******************** footer ********************/
+footer {
+	background: url("../images/util/footer.jpg");
+	height: 275px;
+	margin: 40px 0 0;
+}
+
+footer article {
+	margin: 20px 0 0;
+	text-align: center;
+}
+
+footer article h3 {
+	font-family: 'DIN1451StdEngschrift';
+	font-size: 30px;
+	text-shadow: 2px 3px 0px #000000;
+}
+
+#support {
+	float: left;
+	width: 400px;
+	margin: 20px 80px 0 0;
+	padding: 0 100px;
+}
+
+#support img {
+	margin: 15px 15px 0 0;
+}
+
+#organizers {
+	float: left;
+	width: 300px;
+}
+
+#organizers a {
+	color: #FFFFFF;
+	float: left;
+	font-family: 'DIN1451StdEngschrift';
+	font-size: 25px;
+	margin: 15px 0 0;
+	text-decoration: none;
+	text-shadow: 2px 3px 0 #000000;
+	width: 150px;
+}
+
+#organizers a img {
+	width: 73px;
+}
+
+#organizers a p {
+	margin: 5px 0 0;
+}
+
+/******************** @font-face ********************/
+/********** DINPRO **********/
+
+@font-face {
+    font-family: 'DINProLight';
+    src: url('../fonts/DINPRO/dinpro-light-webfont.eot');
+    src: url('../fonts/DINPRO/dinpro-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DINPRO/dinpro-light-webfont.woff') format('woff'),
+         url('../fonts/DINPRO/dinpro-light-webfont.ttf') format('truetype'),
+         url('../fonts/DINPRO/dinpro-light-webfont.svg#DINProLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DINProMedium';
+    src: url('../fonts/DINPRO/dinpro-medium-webfont.eot');
+    src: url('../fonts/DINPRO/dinpro-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DINPRO/dinpro-medium-webfont.woff') format('woff'),
+         url('../fonts/DINPRO/dinpro-medium-webfont.ttf') format('truetype'),
+         url('../fonts/DINPRO/dinpro-medium-webfont.svg#DINProMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DINProBlack';
+    src: url('../fonts/DINPRO/dinpro-black-webfont.eot');
+    src: url('../fonts/DINPRO/dinpro-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DINPRO/dinpro-black-webfont.woff') format('woff'),
+         url('../fonts/DINPRO/dinpro-black-webfont.ttf') format('truetype'),
+         url('../fonts/DINPRO/dinpro-black-webfont.svg#DINProBlack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DINProBold';
+    src: url('../fonts/DINPRO/dinpro-bold-webfont.eot');
+    src: url('../fonts/DINPRO/dinpro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DINPRO/dinpro-bold-webfont.woff') format('woff'),
+         url('../fonts/DINPRO/dinpro-bold-webfont.ttf') format('truetype'),
+         url('../fonts/DINPRO/dinpro-bold-webfont.svg#DINProBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DINProRegular';
+    src: url('../fonts/DINPRO/dinpro-regular-webfont.eot');
+    src: url('../fonts/DINPRO/dinpro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DINPRO/dinpro-regular-webfont.woff') format('woff'),
+         url('../fonts/DINPRO/dinpro-regular-webfont.ttf') format('truetype'),
+         url('../fonts/DINPRO/dinpro-regular-webfont.svg#DINProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/********** DIN1451 **********/
+@font-face {
+    font-family: 'DIN1451StdEngschrift';
+    src: url('../fonts/DIN1451/dinengschriftstd-webfont.eot');
+    src: url('../fonts/DIN1451/dinengschriftstd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DIN1451/dinengschriftstd-webfont.woff') format('woff'),
+         url('../fonts/DIN1451/dinengschriftstd-webfont.ttf') format('truetype'),
+         url('../fonts/DIN1451/dinengschriftstd-webfont.svg#DIN1451StdEngschrift') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DIN1451StdMittelschrift';
+    src: url('../fonts/DIN1451/dinmittelschriftstd-webfont.eot');
+    src: url('../fonts/DIN1451/dinmittelschriftstd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DIN1451/dinmittelschriftstd-webfont.woff') format('woff'),
+         url('../fonts/DIN1451/dinmittelschriftstd-webfont.ttf') format('truetype'),
+         url('../fonts/DIN1451/dinmittelschriftstd-webfont.svg#DIN1451StdMittelschrift') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
