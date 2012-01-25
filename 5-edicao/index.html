@@ -13,6 +13,11 @@
 	<!-- favicon -->
 	<link rel="shortcut icon" href="./favicon.ico">
 
+	<!-- Facebook -->
+	<meta property="og:title" content="Geeks On Beer - 09 de fevereiro" />
+	<meta property="og:description" content="Geeks On Beer - 5° edição - 09 de fevereiro de 2012 - Rio de Janeiro / Bar Ernesto - São Paulo / Bar Brahma" />
+	<meta property="og:image" content="./static/images/social/gob-facebook.jpg" />
+
 	<!-- Google Analytics -->
 	<script type="text/javascript">
 
@@ -26,81 +31,106 @@
 	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	  })();
+	</script>
 
+	<!-- FancyBox -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="./static/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" href="./static/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("a.mapa").fancybox({
+				'transitionIn'	:	'elastic',
+				'transitionOut'	:	'elastic',
+				'speedIn'		:	200, 
+				'speedOut'		:	200, 
+				'overlayShow'	:	false
+				
+			});
+		});
 	</script>
 </head>
 
 
-<body>
+<body>	
 	<header>
-		<ul id="share">
-			<li></li>
-			<li></li>
-			<li></li>
-		</ul>		
+		
 	</header>
 
-	<section id="cities">
-		<div class="city">
+	<section id="half">
+		<div class="half">
 			<p id="rj-top"> </p>
 			<div>
 				<h2>09 DE FEVEREIRO, 19h</h2>
 				<h1>LOCAL: BAR ERNESTO</h1>
-				<a class="mapa" href="#FIXME"><img src="./static/images/util/btn-mapa.png" />Mapa do local</a>
+				<a class="mapa" href="#mapario"><img src="./static/images/util/btn-mapa.png" />Mapa do local</a>
+				<div style="display:none">
+					<div id="mapario">
+					<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=rio+de+janeiro+bar+ernesto&amp;aq=&amp;sll=-23.539694,-46.637585&amp;sspn=0.011921,0.019205&amp;vpsrc=6&amp;ie=UTF8&amp;hq=bar+ernesto&amp;hnear=Rio+de+Janeiro,+Brazil&amp;t=m&amp;cid=2097003526091511235&amp;ll=-22.904167,-43.175411&amp;spn=0.027672,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=rio+de+janeiro+bar+ernesto&amp;aq=&amp;sll=-23.539694,-46.637585&amp;sspn=0.011921,0.019205&amp;vpsrc=6&amp;ie=UTF8&amp;hq=bar+ernesto&amp;hnear=Rio+de+Janeiro,+Brazil&amp;t=m&amp;cid=2097003526091511235&amp;ll=-22.904167,-43.175411&amp;spn=0.027672,0.036478&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:center; margin:0 0 0 150px" target="_blank">Ver no Google Maps.</a></small>
+					</div>
+				</div>
 				<img src="./static/images/util/programacao.png" class="programacao" />
 				<p>Em breve!</p>
-				<a class="inscricao" href="">EU QUERO IR!</a>
+				<a class="inscricao" href="http://app.eventop.com.br/geeks-on-beer-5-edicao-inscricao-rio-de-janeiro" target="_blank" title="Eu quero ir!">EU QUERO IR!</a>
+				<p class="price">Inscrição por R$30 (com R$15 de consumação)</p>
 			</div>
 			<p class="bottom"> </p>
 		</div>
-		<div class="city last">
+		<div class="half last">
 			<div id="sp-top"></div>
 			<div>
 				<h2>09 DE FEVEREIRO, 19h</h2>
-				<h1>LOCAL: BAR BRAHMA</h1>
-				<a class="mapa" href="#FIXME"><img src="./static/images/util/btn-mapa.png" />Mapa do local</a>
+				<h1>LOCAL: BAR BRAHMA AEROCLUBE</h1>
+				<a class="mapa" href="#mapasp"><img src="./static/images/util/btn-mapa.png" />Mapa do local</a>
+				<div style="display:none">
+					<div id="mapasp">
+						<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=s%C3%A3o+paulo+bar+brahma&amp;aq=&amp;sll=-22.909899,-43.171763&amp;sspn=0.023955,0.038409&amp;vpsrc=6&amp;ie=UTF8&amp;hq=bar+brahma&amp;hnear=Sao+Paulo+-+S%C3%A3o+Paulo,+Brazil&amp;t=m&amp;cid=16500083719703506219&amp;ll=-23.501899,-46.633873&amp;spn=0.027549,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=s%C3%A3o+paulo+bar+brahma&amp;aq=&amp;sll=-22.909899,-43.171763&amp;sspn=0.023955,0.038409&amp;vpsrc=6&amp;ie=UTF8&amp;hq=bar+brahma&amp;hnear=Sao+Paulo+-+S%C3%A3o+Paulo,+Brazil&amp;t=m&amp;cid=16500083719703506219&amp;ll=-23.501899,-46.633873&amp;spn=0.027549,0.036478&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:center; margin:0 0 0 150px" target="_blank">Ver no Google Maps.</a></small>
+					</div>
+				</div>
 				<img src="./static/images/util/programacao.png" class="programacao" />
 				<p>Em breve!</p>
-				<a class="inscricao" href="">EU QUERO IR!</a>
+				<a class="inscricao" href="http://app.eventop.com.br/geeks-on-beer-5-edicao-inscricao-sao-paulo-50" target="_blank" title="Eu quero ir!">EU QUERO IR!</a>
+				<p class="price">Inscrição por R$30 (com R$15 de consumação)</p>
 			</div>
 			<p class="bottom"> </p>
 		</div>
 	</section>
 
-	<section id="about-midia">
-		<article>
-			<div id="about"></div>
-			<div id="about-line"></div>
+	<section id="two-one">
+		<article class="two">
+			<h3><img src="./static/images/title/titulo-oquee.png" /></h3>
+			<div id="media-line"></div>
 			<img src="./static/images/util/beer.png" />
 			<p>O Geeks On Beer é um encontro em forma de happy hour onde os geeks se encontram para conversar sobre negócios, tecnologia e tomar uma cerveja. O encontro está chegando em sua quinta edição, acontecendo simultaneamente no Rio e em São Paulo. Se você já foi à alguma sabe que não pode perder mais essa.</p>
 			<p>Se ainda não foi, está esperando o que?</p>
 		</article>
-		<ul>
-			<div id="midia"></div>
-			<div id="midia-line"></div>
-			<li><img src="./static/images/midia/midia-tnw.png" /></li>
-			<li><img src="./static/images/midia/midia-comercio.png" /></li>
-			<li><img src="./static/images/midia/midia-oglobo.png" /></li>
-		</ul>
+		<article class="one last">
+			<h3><img src="./static/images/title/titulo-fotos.png" /></h3>
+			<div id="media-line"></div>
+			<a href="https://www.facebook.com/media/set/?set=a.264459180261933.58260.224731010901417&type=3" alt="Galeria de fotos do Geeks On Beer no Facebook" title="Galeria de fotos do Geeks On Beer no Facebook"><img src="./static/images/util/mosaico.jpg" /></a>
+		</article>
 	</section>
 
 	<section id="sponsors">
 		Patrocinadores
 	</section>
 
-	<section id="media">
-		<div>
-			<h3><img src="./static/images/title/titulo-fotos.png" /></h3>
+	<section id="video">
+		<iframe src="http://player.vimeo.com/video/32212358?title=0&amp;byline=0&amp;portrait=0" width="700" height="525" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	</section>
+
+	<section id="three">
+		<article class="one">
+			<h3><img src="./static/images/title/titulo-midia.png" /></h3>
 			<div id="media-line"></div>
-			<a href="https://www.facebook.com/media/set/?set=a.264459180261933.58260.224731010901417&type=3" alt="Galeria de fotos do Geeks On Beer no Facebook" title="Galeria de fotos do Geeks On Beer no Facebook"><img src="./static/images/util/mosaico.jpg" /></a>
-		</div>
-		<div>
-			<h3><img src="./static/images/title/titulo-videos.png" /></h3>
-			<div id="media-line"></div>
-			<iframe src="http://player.vimeo.com/video/32212358?title=0&amp;byline=0&amp;portrait=0" width="295" style="margin: 30px 0 0" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-		</div>
-		<div id="last">
-			<h3><img src="./static/images/title/titulo-contato.png" /></h3>
+			<ul>
+				<li><img src="./static/images/midia/midia-tnw.png" /></li>
+				<li><img src="./static/images/midia/midia-comercio.png" /></li>
+				<li><img src="./static/images/midia/midia-oglobo.png" /></li>
+			</ul>
+		</article>
+		<article class="one">
+			<h3><img src="./static/images/title/titulo-imprensa.png" /></h3>
 			<div id="media-line"></div>
 			<span id="contato">
 				<h4>Assessoria de Imprensa</h4>
@@ -109,7 +139,7 @@
 				<p>Escritório: (21) 3169-2934</p>
 				<p>Celular: (21) 9547-0910</p>
 			</span>
-		</div>
+		</article>
 	</section>
 
 	<footer>
@@ -138,7 +168,19 @@
 					<p>@castroalves</p>
 					<p>BeesOffice</p>
 				</a>
+
+				<a href="https://twitter.com/FernandesNique" alt="Monique Fernandes">
+					<img src="./static/images/realizadores/Monique-Fernandes.jpg" />
+					<p>@fernandesnique</p>
+					<p>LaPresse</p>
+				</a>
+
+				<a href="http://www.facebook.com/thiagofafopires" alt="Cadu de Castro Alves">
+					<img src="./static/images/realizadores/Thiago-Fafo-Pires.jpg" />
+					<p>@thiagofafopires</p>
+					<p>MONZTRO.com</p>
+				</a>
 		</article>
-	</footer>
+	</footer>	
 </body>
 </html>

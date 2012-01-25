@@ -14,6 +14,35 @@ body {
 	width: 980px;
 }
 
+h1 {
+	padding: 5px 0;
+	text-align: center;
+	font-family: 'DIN1451StdEngschrift';
+	font-size: 35px;
+	text-shadow: 2px 3px 0px #000000;
+}
+
+h2 {
+	color: #fcd902;
+	padding: 20px 0 0;
+	text-align: center;
+	font-family: 'DIN1451StdEngschrift';
+	font-size: 43px;
+	text-shadow: 2px 3px 0px #000000;
+}
+
+h3 {
+	height: 85px;
+	width: 100%;
+}
+
+#media-line {
+	background: url("../images/util/asterisco.png");
+	height: 15px;
+	margin: 20px 0 30px !important;
+	width: 99% !important;
+	padding: 0 !important;
+}
 
 /******************** header ********************/
 header {
@@ -21,25 +50,14 @@ header {
 	height: 270px;
 }
 
-#share {
-	display: none;
-	float: right;
-	margin: 15px 0 0 0;
-}
-
-#share li {
-	display: inline;
-	margin: 0 15px 0 0;
-}
-
 /******************** cities ********************/
-#cities {
+#half {
 	display: inline-block;
 	width: 980px;
 	margin: 20px 0 0;
 }
 
-.city {
+.half {
 	float: left;
 	margin: 0 40px 0 0;
 	width: 470px;
@@ -49,52 +67,35 @@ header {
 	margin: 0;
 }
 
-.city #rj-top {
+.half #rj-top {
 	background: url("../images/cities/box-rj.jpg") 0 0 no-repeat;
 	height: 86px;
 	padding: 0;
 }
 
-.city #rj-top:hover {
+.half #rj-top:hover {
 	background-position: 0 -86px;
 }
 
-.city #sp-top {
+.half #sp-top {
 	background: url("../images/cities/box-sp.jpg") 0 0 no-repeat;
 	height: 86px;
 	padding: 0;
 }
 
-.city #sp-top:hover {
+.half #sp-top:hover {
 	background-position: 0 -86px;
 }
 
-.city .bottom {
+.half .bottom {
 	background: url("../images/cities/box-down.jpg");
-	height: 20px;
+	height: 1px;
 	margin: 0 0 50px;
 }
 
-.city div {
+.half div {
 	background: url("../images/cities/box-center.jpg");
 	padding: 0 40px 20px;
-}
-
-.city div h2 {
-	color: #fcd902;
-	padding: 20px 0 0;
-	text-align: center;
-	font-family: 'DIN1451StdEngschrift';
-	font-size: 43px;
-	text-shadow: 2px 3px 0px #000000;
-}
-
-.city div h1 {
-	padding: 5px 0;
-	text-align: center;
-	font-family: 'DIN1451StdEngschrift';
-	font-size: 55px;
-	text-shadow: 2px 3px 0px #000000;
 }
 
 .mapa {
@@ -109,7 +110,7 @@ header {
 	width: 400px;
 }
 
-.city div a img {
+.half div a img {
 	margin: 0 5px -5px 0;
 }
 
@@ -117,12 +118,51 @@ header {
 	margin: 10px 22px 0;
 }
 
-.city div p {
+.half p {
 	padding: 5px 0 15px;
 	text-align: center;
 	font-family: 'DIN1451StdEngschrift';
 	font-size: 55px;
 	text-shadow: 2px 3px 0px #000000;
+}
+
+.half p.data {
+	color: #fcd902;
+	padding: 5px 0;
+	text-align: left;
+	font-family: 'DIN1451StdEngschrift';
+	font-size: 30px;
+	text-shadow: 2px 3px 0px #000000;
+}
+
+.half p.local {
+	padding: 5px 0 30px;
+	text-align: left;
+	font-family: 'DIN1451StdEngschrift';
+	font-size: 30px;
+	text-shadow: 2px 3px 0px #000000;
+}
+
+.half img#calendar {
+	float: left;
+}
+
+.half p.calendar {
+	color: #FFFFFF;
+	display: inline-block;
+	padding: 20px 0 15px 30px;
+	text-align: left;
+	font-family: 'DIN1451StdEngschrift';
+	text-shadow: 2px 3px 0px #000000;
+	font-size: 20px;
+}
+
+.half div p.price {
+	padding: 5px 0 15px;
+	text-align: center;
+	font-family: 'DIN1451StdEngschrift';
+	text-shadow: 2px 3px 0px #000000;
+	font-size: 20px;
 }
 
 .inscricao {
@@ -138,7 +178,7 @@ header {
 	border-radius: 10px;
 	box-shadow: 2px 2px 0px #000000;
 	color: #FFFFFF;
-	display: none;
+	display: block;
 	font-family: 'DIN1451StdEngschrift';
 	font-size: 35px;
 	height: 70px;
@@ -153,64 +193,58 @@ header {
 
 
 /******************** about-midia ********************/
-#about-midia {
+#two-one {
 	display: inline-block;
 	width: 980px;
 	margin: 40px 0;
 }
 
-#about-midia article {
+.two {
+	display: inline-block;
+	float: left;
+	margin: 0 50px 0 0;
+	width: 636px;
+}
+
+.two img {
 	float: left;
 	margin: 0 40px 0 0;
-	width: 636px;	
 }
 
-#about-midia article img {
-	float: left;
-}
-
-#about-midia article p {
+.two p {
 	float: left;
 	font-size: 20px;
-	margin: 10px 40px 30px;
+	margin: 10px 0 30px;
 	text-shadow: 3px 3px 3px #000000;
 	width: 372px;
 	font-family: 'DINProRegular';
 }
 
-#about {
-	background: url("../images/title/titulo-oquee.png") no-repeat;
-	height: 90px;
+.two p.full {
+	width: 100%;
 }
 
-#about-line {
-	background: url("../images/util/asterisco.png");
-	height: 15px;
-	margin: 20px 0 30px;
-    width: 99%;
-}
-
-#about-midia ul {
+.one {
+	display: inline-block;
 	float: left;
-	width: 300px;
+	margin: 0 50px 0 0;
+	width: 292px;
+	text-align: center;
 }
 
-#midia {
-	background: url("../images/title/titulo-midia.png") no-repeat;
-	height: 90px;
+.last {
+	margin: 0;
 }
 
-#midia-line {
-	background: url("../images/util/asterisco.png");
-	height: 15px;
-	margin: 20px 0 30px;
+.one ul {
+	width: 292px;
 }
 
-#about-midia li {
+.one li {
 	list-style: none;
 }
 
-#about-midia li img {
+.one li img {
 	margin: 0 30px 15px;
 }
 
@@ -220,33 +254,18 @@ header {
 	width: 980px;
 }
 
+/******************** video ********************/
+#video {
+	background: url("../images/util/bg-pontos.png");
+	width: 700px;
+	padding: 0 140px;
+}
+
 /******************** media ********************/
-#media {
+#three {
 	display: inline-block;
 	width: 980px;
-	margin: 40px 0 0;
-}
-
-#media div {
-	float: left;
-	margin: 0 40px 0 0;
-	width: 298px;
-	text-align: center;
-}
-
-#media div#last {
-	margin: 0;
-}
-
-#media div h3 {
-	height: 85px;
-}
-
-#media-line {
-	background: url("../images/util/asterisco.png");
-	height: 15px;
-	margin: 20px 0 30px !important;
-	width: 289px !important;
+	margin: 80px 0 0;
 }
 
 #contato {
@@ -275,21 +294,19 @@ footer {
 }
 
 footer article {
-	margin: 20px 0 0;
 	text-align: center;
 }
 
 footer article h3 {
 	font-family: 'DIN1451StdEngschrift';
 	font-size: 30px;
+	height: 50px;
 	text-shadow: 2px 3px 0px #000000;
 }
 
 #support {
 	float: left;
-	width: 400px;
-	margin: 20px 80px 0 0;
-	padding: 0 100px;
+	width: 410px;
 }
 
 #support img {
@@ -297,8 +314,8 @@ footer article h3 {
 }
 
 #organizers {
-	float: left;
-	width: 300px;
+	float: right;
+	width: 540px;
 }
 
 #organizers a {
@@ -309,7 +326,11 @@ footer article h3 {
 	margin: 15px 0 0;
 	text-decoration: none;
 	text-shadow: 2px 3px 0 #000000;
-	width: 150px;
+	min-width: 130px;
+}
+
+#organizers a.first {
+	margin: 15px 0 0 65px;
 }
 
 #organizers a img {
@@ -318,6 +339,18 @@ footer article h3 {
 
 #organizers a p {
 	margin: 5px 0 0;
+	font-size: 20px;
+}
+
+/******************** @font-face ********************/
+#city-data {
+	display: inline-block;
+	width: 980px;
+	margin: 40px 0 0;
+}
+
+#city-data div {
+	
 }
 
 /******************** @font-face ********************/
