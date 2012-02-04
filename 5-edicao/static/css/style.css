@@ -22,13 +22,20 @@ h1 {
 	text-shadow: 2px 3px 0px #000000;
 }
 
-h2 {
+h2, .theme {
 	color: #fcd902;
 	padding: 20px 0 0;
 	text-align: center;
 	font-family: 'DIN1451StdEngschrift';
 	font-size: 43px;
 	text-shadow: 2px 3px 0px #000000;
+}
+
+.theme {
+	font-size: 27px;
+	padding: 0;
+	margin: 0;
+	height: 50px;
 }
 
 h3 {
@@ -115,8 +122,77 @@ header {
 }
 
 .programacao {
-	margin: 10px 22px 0;
+	margin: 30px 0;
 }
+
+#table li {
+	display: inline-block;
+	vertical-align: top;
+	width: 110px;
+}
+
+#table p {
+	font-size: 20px;
+	margin: 0 0 0 -17px;
+	padding: 5px 0;
+	text-align: center;
+	width: 144px;
+}
+
+#table p.title {
+	color: #F58020;
+	font-size: 22px;
+}
+
+#table img {
+	margin: 0 2px;
+	border: 3px solid #F58020;
+	border-radius: 5px 5px 5px 5px;
+}
+
+#table a {
+	color: #FCD902;
+	display: block;
+	font-family: 'DIN1451StdEngschrift';
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 2px 3px 0 #000000;
+	width: 110px;
+}
+
+.table-top {
+	margin: 10px 8px 20px;
+}
+
+.table-bottom {
+	margin: 0 41px 10px;
+}
+
+
+
+.speed {
+	background: #FFFFFF;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 3px 3px 0 0 #000000;
+	padding: 15px 20px;
+	margin: 0 0 30px;
+}
+
+.speed li {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0 10px;
+}
+
+.speed a {
+	
+}
+
+.speed img {
+	display: inline-block;
+}
+
+
 
 .half p {
 	padding: 5px 0 15px;
@@ -162,7 +238,7 @@ header {
 	text-align: center;
 	font-family: 'DIN1451StdEngschrift';
 	text-shadow: 2px 3px 0px #000000;
-	font-size: 20px;
+	font-size: 26px;
 }
 
 .inscricao {
@@ -306,7 +382,7 @@ footer article h3 {
 
 #support {
 	float: left;
-	width: 410px;
+	width: 430px;
 }
 
 #support img {
