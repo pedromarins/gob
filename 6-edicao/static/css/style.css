@@ -1,0 +1,145 @@
+/* CSS Resets */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,q,small,strong,sub,sup,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;margin:0;padding:0}article,aside,figure,figure img,figcaption,hgroup,footer,header,nav,section,video,object{display:block}a img{border:0}figure{position:relative}figure img{width:100%}
+
+
+/******************** basic ********************/
+html {
+	background: #371b15;
+	color: #FFFFFF;
+}
+
+body {
+	margin: 0 auto;
+	width: 980px;
+}
+
+h2 {
+	color: #fcd902;
+	float: left;
+	font-family: 'DIN1451StdEngschrift';
+	font-size: 43px;
+	text-shadow: 2px 3px 0px #000000;
+	margin: 0 0 0 10px;
+	width: 420px;
+}
+
+h3 {
+	float: left;
+	font-family: 'DIN1451StdEngschrift';
+	font-size: 30px;
+	text-shadow: 2px 3px 0px #000000;
+	margin: 0 0 0 10px;
+	width: 420px;
+}
+
+p a {
+	color: #fcd902;
+	display: block;
+	font-family: 'DIN1451StdEngschrift';
+	font-size: 43px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 2px 3px 0px #000000;
+	width: 980px;
+	margin: 20px 0;
+}
+
+/******************** header ********************/
+header {
+	background: url("../images/util/header.jpg");
+	height: 270px;
+}
+
+section {
+	display: inline-block;
+	margin: 30px;
+}
+
+section span {
+	display: inline-block;
+	float: left;
+	width: 490px;
+}
+
+section img {
+	float: right;
+	margin: 0 20px 0 0;
+}
+
+/******************** video ********************/
+#video {
+	background: url("../images/util/bg-pontos.png");
+	width: 700px;
+	padding: 0 140px;
+	height: 394px;
+}
+
+/******************** footer ********************/
+footer {
+	background: url("../images/util/footer.jpg");
+	height: 275px;
+	margin: 40px 0 0;
+}
+
+footer article {
+	text-align: center;
+}
+
+footer article h3 {
+	font-family: 'DIN1451StdEngschrift';
+	font-size: 30px;
+	height: 50px;
+	text-shadow: 2px 3px 0px #000000;
+}
+
+#support {
+	float: left;
+	width: 430px;
+}
+
+#support img {
+	margin: 15px 15px 0 0;
+}
+
+#organizers {
+	float: right;
+	width: 450px;
+}
+
+#organizers a {
+	color: #FFFFFF;
+	float: left;
+	font-family: 'DIN1451StdEngschrift';
+	font-size: 25px;
+	margin: 15px 0 0;
+	text-decoration: none;
+	text-shadow: 2px 3px 0 #000000;
+	min-width: 150px;
+}
+
+#organizers a.first {
+	margin: 15px 0 0 65px;
+}
+
+#organizers a img {
+	width: 73px;
+}
+
+#organizers a p {
+	margin: 5px 0 0;
+	font-size: 20px;
+}
+
+/******************** @font-face ********************/
+/********** DIN1451 **********/
+@font-face {
+    font-family: 'DIN1451StdEngschrift';
+    src: url('../fonts/DIN1451/dinengschriftstd-webfont.eot');
+    src: url('../fonts/DIN1451/dinengschriftstd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DIN1451/dinengschriftstd-webfont.woff') format('woff'),
+         url('../fonts/DIN1451/dinengschriftstd-webfont.ttf') format('truetype'),
+         url('../fonts/DIN1451/dinengschriftstd-webfont.svg#DIN1451StdEngschrift') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
