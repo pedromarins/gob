@@ -16,21 +16,21 @@ body {
 
 h2 {
 	color: #fcd902;
-	float: left;
+	text-align: right;
 	font-family: 'DIN1451StdEngschrift';
 	font-size: 43px;
 	text-shadow: 2px 3px 0px #000000;
-	margin: 0 0 0 10px;
-	width: 420px;
+	margin: 0 10px 0 0;
+	width: 460px;
 }
 
 h3 {
-	float: left;
+	text-align: right;
 	font-family: 'DIN1451StdEngschrift';
 	font-size: 30px;
 	text-shadow: 2px 3px 0px #000000;
-	margin: 0 0 0 10px;
-	width: 420px;
+	margin: 0 10px 0 0;
+	width: 460px;
 }
 
 p a {
@@ -62,9 +62,86 @@ section span {
 	width: 490px;
 }
 
-section img {
+.inscricao {
+	background: #bd8a7b; /* Old browsers */
+	background: -moz-linear-gradient(top, #bd8a7b 0%, #6c3833 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bd8a7b), color-stop(100%,#6c3833)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #bd8a7b 0%,#6c3833 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #bd8a7b 0%,#6c3833 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #bd8a7b 0%,#6c3833 100%); /* IE10+ */
+	background: linear-gradient(top, #bd8a7b 0%,#6c3833 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bd8a7b', endColorstr='#6c3833',GradientType=0 ); /* IE6-9 */
+	border: 1px solid #bd8a7b;
+	border-radius: 10px;
+	box-shadow: 2px 2px 0px #000000;
+	color: #FFFFFF;
+	display: block;
+	font-family: 'DIN1451StdEngschrift';
+	font-size: 35px;
+	float: left;
+	height: 70px;
+	line-height: 70px;
+	margin: 8px 0 0;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 2px 2px 0px #000000;
+	width: 300px;
+}
+
+.inscricao-speed {
+	background: #bd8a7b; /* Old browsers */
+	background: -moz-linear-gradient(top, #bd8a7b 0%, #6c3833 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bd8a7b), color-stop(100%,#6c3833)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #bd8a7b 0%,#6c3833 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #bd8a7b 0%,#6c3833 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #bd8a7b 0%,#6c3833 100%); /* IE10+ */
+	background: linear-gradient(top, #bd8a7b 0%,#6c3833 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bd8a7b', endColorstr='#6c3833',GradientType=0 ); /* IE6-9 */
+	border: 1px solid #bd8a7b;
+	border-radius: 10px;
+	box-shadow: 2px 2px 0px #000000;
+	color: #FFFFFF;
+	display: block;
+	font-family: 'DIN1451StdEngschrift';
+	font-size: 25px;
 	float: right;
-	margin: 0 20px 0 0;
+	height: 50px;
+	line-height: 50px;
+	margin: 32px 0;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 2px 2px 0px #000000;
+	width: 300px;
+}
+
+.speed-img {
+	float: none;
+	text-align: center;
+	margin: 60px 260px 20px;
+}
+
+.speed {
+	background: #FFFFFF;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 3px 3px 0 0 #000000;
+	display: inline-block;
+	padding: 15px 20px;
+	margin: 0 0 30px;
+	width: 100%;
+}
+
+.speed li {
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+}
+
+.speed a {
+	
+}
+
+.speed img {
+	display: inline-block;
 }
 
 /******************** video ********************/
