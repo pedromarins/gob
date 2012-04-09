@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule http://geeksonbeer.org//(.*)/$ /inscrito-rio-de-janeiro/?$1=
+RewriteRule http://geeksonbeer.org//(.*)/$ /inscrito-sao-paulo/?$1=
