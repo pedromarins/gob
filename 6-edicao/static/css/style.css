@@ -18,19 +18,26 @@ h2 {
 	color: #fcd902;
 	text-align: right;
 	font-family: 'DIN1451StdEngschrift';
-	font-size: 43px;
+	font-size: 65px;
 	text-shadow: 2px 3px 0px #000000;
-	margin: 0 10px 0 0;
+	margin: 5px 10px 0 0;
 	width: 460px;
+	float: left;
 }
 
-h3 {
-	text-align: right;
+h3, footer h3 {
+	text-align: center;
 	font-family: 'DIN1451StdEngschrift';
-	font-size: 30px;
+	font-size: 26px;
 	text-shadow: 2px 3px 0px #000000;
 	margin: 0 10px 0 0;
-	width: 460px;
+	width: 980px;
+	display: inline-block;
+}
+
+.obrigado {
+	text-align: left;
+	margin: 30px 0;
 }
 
 p a {
@@ -44,6 +51,23 @@ p a {
 	width: 980px;
 	margin: 20px 0;
 }
+
+p.full {
+	font-size: 20px;
+	margin: 10px 0 30px;
+	text-shadow: 3px 3px 3px #000000;
+	font-family: 'DINProRegular';
+	width: 100%;
+}
+
+#media-line {
+	background: url("../images/util/asterisco.png");
+	height: 15px;
+	margin: 20px 0 30px !important;
+	width: 99% !important;
+	padding: 0 !important;
+}
+
 
 /******************** header ********************/
 header {
@@ -59,7 +83,7 @@ section {
 section span {
 	display: inline-block;
 	float: left;
-	width: 490px;
+	width: 560px;
 }
 
 .inscricao {
@@ -81,7 +105,7 @@ section span {
 	float: left;
 	height: 70px;
 	line-height: 70px;
-	margin: 8px 0 0;
+	margin: 8px 0 30px;
 	text-align: center;
 	text-decoration: none;
 	text-shadow: 2px 2px 0px #000000;
@@ -127,7 +151,7 @@ section span {
 	display: inline-block;
 	padding: 15px 20px;
 	margin: 0 0 30px;
-	width: 100%;
+	width: 940px;
 }
 
 .speed li {
@@ -168,6 +192,7 @@ footer article h3 {
 	font-size: 30px;
 	height: 50px;
 	text-shadow: 2px 3px 0px #000000;
+	width: 300px;
 }
 
 #support {
